@@ -1,6 +1,6 @@
 {
   "name": "sockitz",
-  "version": "1.0.0a",
+  "version": "1.0.0b",
   "description": "Sockitz Server/Client",
   "main": "@types/sockitz.js",
   "type": "module",
