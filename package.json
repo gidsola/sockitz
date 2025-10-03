@@ -1,0 +1,37 @@
+{
+  "name": "sockitz",
+  "version": "1.0.0",
+  "description": "Sockitz Server/Client",
+  "main": "@types/sockitz.js",
+  "type": "module",
+  "typeRoots": [
+    "./node_modules/@types",
+    "./@types"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gidsola/Sockitz.git"
+  },
+  "keywords": [
+    "socket",
+    "web",
+    "server",
+    "net service"
+  ],
+  "author": "gidsola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gidsola/Sockitz/issues"
+  },
+  "homepage": "https://github.com/gidsola/Sockitz#readme",
+  "dependencies": {
+    "typescript": "^5.9.3",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1"
+  }
+}

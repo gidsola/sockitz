@@ -1,0 +1,1 @@
+{"version":3,"file":"sockitz.js","sourceRoot":"","sources":["../sockitz.ts"],"names":[],"mappings":"AAGA,OAAO,cAAc,MAAM,aAAa,CAAC;AACzC,4CAA4C;AAG5C,MAAM,OAAO;IAEX,SAAS,CAAkB;IAC3B,aAAa;IAEb,YAAY,MAAc;QAExB,IAAI,CAAC,SAAS,GAAG,IAAI,cAAc,CAAC,MAAM,CAAC,CAAC,aAAa,CAAC;QAC1D,2DAA2D;IAE7D,CAAC;CAIF;AAAA,CAAC;AACF,eAAe,OAAO,CAAC"}
