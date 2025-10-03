@@ -1,7 +1,5 @@
 import type { Server } from 'http'
-
 import { WebSocketServer } from 'ws';
-
 
 
 class Sockitz_Server {
