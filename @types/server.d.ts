@@ -1,6 +1,6 @@
 import type { Server } from 'http';
-declare class Sockitz_Server {
-    sockit_server: import("ws").Server<typeof import("ws").default, typeof import("http").IncomingMessage>;
+import { EventEmitter } from 'node:events';
+declare class Sockitz_Server extends EventEmitter {
     constructor(server: Server);
 }
 export default Sockitz_Server;

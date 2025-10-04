@@ -1,10 +1,7 @@
 import type { Server } from 'http';
-import type { WebSocketServer } from 'ws';
-declare class Sockitz {
-    private Sockitz_Server;
-    Ws_Server: WebSocketServer;
+import Sockitz_Server from './server.js';
+declare class Sockitz extends Sockitz_Server {
     constructor(server: Server);
-    private initWebSocket;
 }
 export default Sockitz;
 //# sourceMappingURL=sockitz.d.ts.map
